@@ -23,9 +23,13 @@
 </ol>
 <a id="md:to-run-locally" class="tsd-anchor"></a><h2><a href="#md:to-run-locally">To run locally</a></h2><pre><code><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-0">run</span><span class="hl-1"> </span><span class="hl-0">start</span>
 </code><button>Copy</button></pre>
-<a id="md:to-generate-docs" class="tsd-anchor"></a><h2><a href="#md:to-generate-docs">To generate docs</a></h2><pre><code><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-0">run</span><span class="hl-1"> </span><span class="hl-0">docs</span>
+<a id="md:to-generate-local-developer-docs" class="tsd-anchor"></a><h2><a href="#md:to-generate-local-developer-docs">To generate local developer docs</a></h2><pre><code><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-0">run</span><span class="hl-1"> </span><span class="hl-0">devdocs</span>
 </code><button>Copy</button></pre>
 <p>(Can be accessed via the docs/index.html file)</p>
+<a id="md:to-generate-local-endpoint-docs" class="tsd-anchor"></a><h2><a href="#md:to-generate-local-endpoint-docs">To generate local endpoint docs</a></h2><pre><code><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-0">run</span><span class="hl-1"> </span><span class="hl-0">apidocs</span>
+</code><button>Copy</button></pre>
+<a id="md:default-api-docs-documentation" class="tsd-anchor"></a><h4><a href="#md:default-api-docs-documentation">Default API Docs Documentation:</a></h4><pre><code><span class="hl-2">/**</span><br/><span class="hl-2"> * </span><span class="hl-3">@api</span><span class="hl-2"> {&lt;METHOD&gt;} /&lt;SERVICE&gt;/&lt;ENDPOINT&gt;/ &lt;Service Description&gt;</span><br/><span class="hl-2"> * </span><span class="hl-3">@apiName</span><span class="hl-2"> &lt;SERVICE&gt;</span><br/><span class="hl-2"> * </span><span class="hl-3">@apiGroup</span><span class="hl-2"> &lt;SUBSERVICE&gt;</span><br/><span class="hl-2"> * </span><br/><span class="hl-2"> * </span><span class="hl-3">@apiBody</span><span class="hl-2"> {&lt;TYPE&gt;} &lt;NAME&gt; &lt;DESC&gt;</span><br/><span class="hl-2"> * </span><span class="hl-3">@apiParamExample</span><span class="hl-2"> {json} Example Request:</span><br/><span class="hl-2"> * {&lt;JSON BODY&gt;}</span><br/><span class="hl-2"> * </span><br/><span class="hl-2"> * </span><span class="hl-3">@apiSuccess</span><span class="hl-2"> {&lt;TYPE&gt;} &lt;NAME&gt; &lt;DESC&gt;</span><br/><span class="hl-2"> * </span><span class="hl-3">@apiSuccessExample</span><span class="hl-2"> Example Success Response:</span><br/><span class="hl-2"> *     HTTP/1.1 200 OK</span><br/><span class="hl-2"> *     {&lt;JSON BODY&gt;}</span><br/><span class="hl-2"> *</span><br/><span class="hl-2"> * </span><span class="hl-3">@apiError</span><span class="hl-2"> &lt;ERROR NAME&gt; &lt;CODE&gt;: &lt;DESC&gt;</span><br/><span class="hl-2"> *</span><br/><span class="hl-2"> * </span><span class="hl-3">@apiErrorExample</span><span class="hl-2"> Example Error Response:</span><br/><span class="hl-2"> *     HTTP/1.1 &lt;EXAMPLE CODE&gt; &lt;EXAMPLE CODE MEANING&gt;</span><br/><span class="hl-2"> *     {&quot;error&quot;: &quot;&lt;ERROR MESSAGE&gt;&quot;}</span><br/><span class="hl-2"> */</span>
+</code><button>Copy</button></pre>
 </div></div>
 <div class="col-sidebar">
 <div class="page-menu">
@@ -59,7 +63,11 @@
 <ul>
 <li><a href="#md:steps-for-development-environment"><span>Steps for development environment</span></a></li></ul></li></ul></li>
 <li><a href="#md:to-run-locally"><span>To run locally</span></a></li>
-<li><a href="#md:to-generate-docs"><span>To generate docs</span></a></li></ul></li></ul></li></ul></div></details></div>
+<li><a href="#md:to-generate-local-developer-docs"><span>To generate local developer docs</span></a></li>
+<li><a href="#md:to-generate-local-endpoint-docs"><span>To generate local endpoint docs</span></a></li>
+<li>
+<ul>
+<li><a href="#md:default-api-docs-documentation"><span>Default API <wbr/>Docs <wbr/>Documentation:</span></a></li></ul></li></ul></li></ul></li></ul></div></details></div>
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="index.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg><span>adonix</span></a>
 <ul class="tsd-small-nested-navigation">
