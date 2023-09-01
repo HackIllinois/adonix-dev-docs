@@ -18,7 +18,7 @@
 <h1>Function SelectAuthProvider</h1></div>
 <section class="tsd-panel">
 <ul class="tsd-signatures">
-<li class="tsd-signature tsd-anchor-link" id="SelectAuthProvider"><span class="tsd-kind-call-signature">Select<wbr/>Auth<wbr/>Provider</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">provider</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/api._internal_.RequestHandler.html" class="tsd-signature-type tsd-kind-interface">RequestHandler</a><a href="#SelectAuthProvider" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" id="icon-anchor"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path></g></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="SelectAuthProvider"><span class="tsd-kind-call-signature">Select<wbr/>Auth<wbr/>Provider</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">provider</span>, <span class="tsd-kind-parameter">device</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/api._internal_.RequestHandler.html" class="tsd-signature-type tsd-kind-interface">RequestHandler</a><a href="#SelectAuthProvider" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" id="icon-anchor"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path></g></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Given a provider, return the middleware function corresponding to the handler</p>
 </div>
@@ -29,12 +29,17 @@
 <h5><span class="tsd-kind-parameter">provider</span>: <span class="tsd-signature-type">string</span></h5>
 <div class="tsd-comment tsd-typography"><p>String representing the provider passed into the request</p>
 </div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">device</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>String representing the device that auth is being performed on</p>
+</div>
 <div class="tsd-comment tsd-typography"></div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/api._internal_.RequestHandler.html" class="tsd-signature-type tsd-kind-interface">RequestHandler</a></h4><p>RequestHandler middleware, that&#39;s pre-configured for the provider</p>
 
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/HackIllinois/adonix/blob/0c08cc0/src/middleware/select-auth.ts#L16">src/middleware/select-auth.ts:16</a></li></ul></aside></li></ul></section></div>
+<li>Defined in <a href="https://github.com/HackIllinois/adonix/blob/635a0c1/src/middleware/select-auth.ts#L22">src/middleware/select-auth.ts:22</a></li></ul></aside></li></ul></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
